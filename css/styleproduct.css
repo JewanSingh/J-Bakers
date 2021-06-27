@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;	
+}
+body{
+	background: url('../media/pic2.jpg') repeat;
+	height: 100vh;
+	background-size:cover;
+	width: 100%;
+}
+.menu{
+	position:absolute;
+	width:100%;
+	top:20%;
+	left:50%;
+	right:50%;
+	transform: translate(-50%,-300%);
+}
+
+ul li.products a{
+	background-color: #fff;
+	color: #000;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.title{
+	position:absolute;
+	width:100%;
+	top:20%;
+	left:50%;
+	right:50%;
+	transform: translate(-50%,-80%);
+}
+
+.title h1{
+	color: #fff;
+	font-style: italic;
+	font-size: 70px;
+    left:200%;	
+    background: rgba(25,25,25,0.5);
+	padding-left:40%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #6cf;
+  background: rgba(25,25,25,0.5);;
+}
+
+.connect {
+	position: absolute;
+	top: 30%;
+	right:35%;
+	transform: translateY(-50%);
+	width: 100%;
+	color: #fff;
+	text-align:center;
+}
+
+.connect ul li a:hover{
+	background-color: #53C2E1;
+	color:#000;
+}
+
+.images::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.images{
+	margin-top:4%;
+	margin-left:7%;
+	margin-bottom:10%;
+}
+
+div.cake {
+  background:#F8F8FF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  width: 30.33%;
+  height: 400px;
+  padding:0px;
+}
+
+img{
+	height: 300px;
+    width:100%;	
+}
+
+div.container {
+	text-align: center;
+	padding: 10px 20px;
+}
+
+.button{
+	width:80%;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 13px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top:10px;
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button1{
+	width:100%;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+.search input{	
+	width:90%;
+	max-width:300px;
+	display:block;
+	padding:5px;
+	margin-top:180px;
+	margin-left:500px;
+	border:1px solid #ddd;
+	border-radius:5px;
+	font-size:16px;	
+}
